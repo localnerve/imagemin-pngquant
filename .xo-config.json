@@ -1,5 +1,7 @@
 {
   "rules": {
-    "n/prefer-global/buffer": 0
+    "n/prefer-global/buffer": 0,
+    "@typescript-eslint/ban-types": "off",
+    "unicorn/prevent-abbreviations": "off"
   }
 }

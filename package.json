@@ -1,6 +1,6 @@
 {
 	"name": "@localnerve/imagemin-pngquant",
-	"version": "10.0.4",
+	"version": "10.0.5",
 	"description": "Imagemin plugin for `pngquant`",
 	"license": "MIT",
 	"repository": "localnerve/imagemin-pngquant",
@@ -42,12 +42,12 @@
 		"pngquant-bin": "^8.0.1"
 	},
 	"devDependencies": {
-		"@types/node": "^20.10.6",
-		"c8": "^9.0.0",
-		"ava": "^6.0.1",
+		"@types/node": "^20.11.19",
+		"c8": "^9.1.0",
+		"ava": "^6.1.1",
 		"get-stream": "^6.0.1",
-		"tsd": "^0.30.3",
-		"xo": "^0.56.0"
+		"tsd": "^0.30.4",
+		"xo": "^0.57.0"
 	},
 	"overrides": {
     "download": "npm:@xhmikosr/downloader",
