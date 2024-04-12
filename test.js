@@ -3,7 +3,6 @@ import fs from 'node:fs';
 import path from 'node:path';
 import url from 'node:url';
 import test from 'ava';
-import getStream from 'get-stream';
 import isPng from 'is-png';
 import imageminPngquant from './index.js';
 
@@ -35,7 +34,7 @@ test('support pngquant options', async t => {
 test('support streams', async t => {
 	const buffer = await readFile(path.join(thisDirname, 'fixture.png'));
 	const stream = fs.createReadStream(path.join(thisDirname, 'fixture.png'));
-	const data = await getStream.buffer(imageminPngquant()(stream));
+	const data = await imageminPngquant()(stream);
 	t.true(data.length < buffer.length);
 	t.true(isPng(data));
 });
