@@ -5,7 +5,7 @@
 > [Imagemin](https://github.com/imagemin/imagemin) plugin for [`pngquant`](https://github.com/kornelski/pngquant)
 
 > A maintained, updated fork of [imagemin-pngquant](https://github.com/imagemin/imagemin-pngquant)   
->   Node 16+  
+>   Node 18+  
 >   ESM  
 >   Security and dependency updates  
 
