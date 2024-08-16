@@ -2,6 +2,7 @@
   "rules": {
     "n/prefer-global/buffer": 0,
     "@typescript-eslint/ban-types": "off",
-    "unicorn/prevent-abbreviations": "off"
+    "unicorn/prevent-abbreviations": "off",
+    "promise/prefer-await-to-then": "off"
   }
 }
