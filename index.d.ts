@@ -55,7 +55,7 @@ export interface Options { // eslint-disable-line @typescript-eslint/consistent-
 /**
 Buffer or stream to optimize.
 */
-export type Plugin = (input: Buffer | NodeJS.ReadableStream) => Promise<Buffer>;
+export type Plugin = (input: Buffer | ReadableStream) => Promise<Buffer>;
 
 /**
 Imagemin plugin for pngquant.
