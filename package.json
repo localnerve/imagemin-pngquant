@@ -1,6 +1,6 @@
 {
 	"name": "@localnerve/imagemin-pngquant",
-	"version": "12.4.1",
+	"version": "12.4.2",
 	"description": "Imagemin plugin for `pngquant`",
 	"license": "MIT",
 	"repository": "localnerve/imagemin-pngquant",
@@ -35,7 +35,7 @@
 		"pngquant"
 	],
 	"dependencies": {
-		"execa": "^9.6.0",
+		"execa": "^9.6.1",
 		"is-png": "^3.0.1",
 		"is-stream": "^4.0.1",
 		"ow": "^2.0.0",
