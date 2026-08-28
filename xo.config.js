@@ -13,6 +13,7 @@ const xoConfig = [{
   files: ['xo.config.js'],
   space: true,
 }, {
+  files: ['**/*.js', '**/*.jsx', '**/*.mjs', '**/*.ts', '**/*.tsx'],
   rules: {
     ...js.configs.recommended.rules,
     ...customRules,

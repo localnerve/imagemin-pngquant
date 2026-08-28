@@ -59,7 +59,7 @@ export function imageminPngquant(options = {}) {
 
 		const subprocess = execa(pngquant, args, {
 			encoding: 'buffer',
-			maxBuffer: Number.POSITIVE_INFINITY,
+			maxBuffer: Infinity,
 			input,
 		});
 
