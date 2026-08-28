@@ -11,17 +11,17 @@
 
 ## Install
 
-```
+```bash
 $ npm install imagemin-pngquant
 ```
 ### Prerequisites
 > **Linux** machines must have the following packages prior to install: `libpng-dev libimagequant-dev`  
-```
+```bash
 sudo apt-get -y install libpng-dev libimagequant-dev
 ```
 
 > **Macosx** machines must have the following package prior to install: `libimagequant pkg-config`
-```
+```bash
 brew install libimagequant pkg-config
 ```
 
